@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Upload from './components/Upload';
+// import Display from './components/Display';
+// import Callback from './components/Callback';
+// import registerServiceWorker from './registerServiceWorker';
+// import {Router, Route, browserHistory} from 'react-router';
+// import {requireAuth} from './utils/AuthService';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
 
-export default App;
+// const Root = () => {
+// return (
+// <div className="container">
+// <Router history={browserHistory}>
+// <Route path="/" component={Display}/>
+// <Route path="/upload" component={Upload} onEnter={requireAuth} />
+// <Route path="/callback" component={Callback}/>
+// </Router>
+// </div>
+// )
+// }
+
+// // ReactDOM.render(<Root />, document.getElementById(root));
+// // registerServiceWorker();
+
+// export default App;

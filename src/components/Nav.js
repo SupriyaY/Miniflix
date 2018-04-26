@@ -29,7 +29,7 @@ class Nav extends Component {
                     <li>
 
                         {
-                            (isLoggedIn()) ? (button)
+                            (isLoggedIn()) ? (<button className="btn btn-danger log" onClick={() =>logout()}>Log out</button> ) : (<button className="btn btn-log" onClick={() => login()}>Log In</button>)
 
     }
                     </li>
